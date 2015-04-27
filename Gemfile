@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
-
+#gem 'ruby', '2.1.2'
+ #gem 'rb-readline'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
+#gem 'ruby', '2.1.2' 
+#gem 'json', '1.5.5'
 
 
 group :development, :test do
