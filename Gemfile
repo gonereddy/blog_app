@@ -16,6 +16,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails', '4.2.0'
 end
 
 group :production do
@@ -34,4 +35,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.3'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'authlogic', '~> 3.4.0'
+gem 'scrypt'
+gem 'minitest'
 
